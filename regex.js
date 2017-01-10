@@ -8,14 +8,14 @@ for (var i = 0; i < elems.length; i++) {
 
   // two words
   for (var i = 0; i < text.length - 1; i++) {
-    if Object.keys(defMap2).includes(text[i]+text[i+1]) {
+    if (Object.keys(defMap2).includes(text[i]+text[i+1])) {
       //do something
     }
   }
 
   // three words
   for (var i = 0; i < text.length - 2; i++) {
-    if Object.keys(defMap3).includes(text[i]+text[i+1]+text[i+2]) {
+    if (Object.keys(defMap3).includes(text[i]+text[i+1]+text[i+2])) {
       //do something
     }
   }
